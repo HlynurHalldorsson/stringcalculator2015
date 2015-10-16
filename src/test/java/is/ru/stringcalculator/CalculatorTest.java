@@ -10,7 +10,8 @@ public class CalculatorTest {
     }
 
 	@Test
-	/*public void test() {
+	public void testEpmtyString() {
 		assertEquals(0, Calculator.add(""));
-	}*/
+	}	
+	
 }
