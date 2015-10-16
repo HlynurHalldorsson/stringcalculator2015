@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cd ~/stringcalculator
+cd ~/stringcalculator2015
+pwd
 ./bin/compile
 ./bin/clean
 ./bin/compile
