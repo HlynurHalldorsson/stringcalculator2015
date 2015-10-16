@@ -28,7 +28,7 @@ public class Calculator {
 			}
 			return total;
 		}
-		
+
 		else return 1;
 	}
 
@@ -36,7 +36,7 @@ public class Calculator {
 		return Integer.parseInt(number);
 	}
 
-	// private static String [] splitNumbers(String numbers){
-	// 	return numbers.split(",|\n");
-	// }
-} 
+	private static String [] splitNumbers(String numbers){
+		return numbers.split(",|\n");
+	}
+}
