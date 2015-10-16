@@ -16,10 +16,10 @@ public class Calculator {
 			return toInt(numbers[0]) + toInt(numbers[1]);
 		}
 			//If the string holds more than 3 chars
-			//then there are 3 or more numbers 
+			//then there are 3 or more numbers in the string
 		else if(text.length() > 3) {
 			
-			String [] numbers = text.split(",");
+			String [] numbers = text.split(",|\n");
 			int total = 0;
 	
 			for(int i = 0; i < numbers.length; i++)
@@ -35,4 +35,8 @@ public class Calculator {
 	private static int toInt(String number) {
 		return Integer.parseInt(number);
 	}
+
+	// private static String [] splitNumbers(String numbers){
+	// 	return numbers.split(",|\n");
+	// }
 } 
